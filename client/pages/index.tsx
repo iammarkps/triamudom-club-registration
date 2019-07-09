@@ -1,3 +1,8 @@
 import React from 'react'
+import { NextPage } from 'next'
 
-export default () => <h1>Hello NextJS 😼</h1>
+const IndexPage: NextPage = () => {
+  return <h1>Hello Next.js with Typescript 😼</h1>
+}
+
+export default IndexPage
